@@ -11,13 +11,13 @@ import {
   Snackbar,
 } from "@material-ui/core";
 
-type MovieProps = {
+export type MovieProps = {
   Title: string;
   Year: string;
   imdbID: string;
 };
 
-type ResultsProps = {
+export type ResultsProps = {
   term: string;
   movies: MovieProps[];
   isSearching: boolean;
@@ -63,7 +63,8 @@ const Results: React.FC<ResultsProps> = ({ term, movies, isSearching }) => {
           <Button
             variant="contained"
             onClick={handleRemoveNominate[index]}
-            key={index}
+            key={`remove-${movie.imdbID}`}
+            data-testid={`remove-${movie.imdbID}`}
           >
             Remove
           </Button>
@@ -88,7 +89,7 @@ const Results: React.FC<ResultsProps> = ({ term, movies, isSearching }) => {
     );
   } else if (term !== "") {
     if (isSearching) {
-      resultsContent.push(<CircularProgress />);
+      resultsContent.push(<CircularProgress key="spinner" />);
     } else if (movies.length === 0) {
       resultsContent.push(
         <ListItem key="no-movies">
@@ -103,7 +104,8 @@ const Results: React.FC<ResultsProps> = ({ term, movies, isSearching }) => {
             <Button
               variant="contained"
               onClick={handleNominate[index]}
-              key={index}
+              key={`nominate-${movie.imdbID}`}
+              data-testid={`nominate-${movie.imdbID}`}
               // @ts-ignore
               disabled={nominated[index]}
             >
@@ -121,7 +123,7 @@ const Results: React.FC<ResultsProps> = ({ term, movies, isSearching }) => {
         open={nominatedContent.length >= 5}
         message="You have nominated 5 movies! 🎉"
       />
-      <Grid item xs={6}>
+      <Grid item xs={6} data-testid="results-card">
         <Card>
           <CardContent>
             <Typography variant="h4" component="h2">
@@ -131,7 +133,7 @@ const Results: React.FC<ResultsProps> = ({ term, movies, isSearching }) => {
           </CardContent>
         </Card>
       </Grid>
-      <Grid item xs={6}>
+      <Grid item xs={6} data-testid="nominations-card">
         <Card>
           <CardContent>
             <Typography variant="h4" component="h2">

@@ -8,7 +8,19 @@ The web application has been deployed to https://nominate-movies-d9f6a.web.app/.
 1. Start the development server: `npm run dev`.
 1. Open a browser and open `http://localhost:3000`.
 
-## Run Tests ✅ (TODO)
+Note: I have Node v14.16.0 and npm v6.14.11 installed. Other recent versions of Node and npm should work.
+
+## Run Tests ✅
+
+Please ensure both Firefox and Chrome has been installed. I've tested the work on Chrome 90 and Firefox 88.
+
+1. Ensure the development server is running: `npm run dev`
+1. Run the tests on Chrome and Firefox. (Remove the `--headless` flag to see the interactions on the browsers.)
+
+```
+npx cypress run --browser chrome --headless
+npx cypress run --browser firefox --headless
+```
 
 ## Deploy to Firebase 🔥
 

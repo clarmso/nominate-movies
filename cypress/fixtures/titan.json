@@ -1,0 +1,76 @@
+{
+  "Search": [
+    {
+      "Title": "Attack on Titan",
+      "Year": "2013–",
+      "imdbID": "tt2560140",
+      "Type": "series",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTY5ODk1NzUyMl5BMl5BanBnXkFtZTgwMjUyNzEyMTE@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Attack on Titan",
+      "Year": "2013–",
+      "imdbID": "tt2560140",
+      "Type": "series",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTY5ODk1NzUyMl5BMl5BanBnXkFtZTgwMjUyNzEyMTE@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Titan A.E.",
+      "Year": "2000",
+      "imdbID": "tt0120913",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYTVkYTAyZDMtYzNmYi00OTkyLTg3M2ItNmE0MDZkNmY3Y2I3XkEyXkFqcGdeQXVyNjU2MDUzMjY@._V1_SX300.jpg"
+    },
+    {
+      "Title": "The Titan",
+      "Year": "2018",
+      "imdbID": "tt4986098",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjE4NDc5MDU2NV5BMl5BanBnXkFtZTgwNDI1ODEyNTM@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Attack on Titan Part 1",
+      "Year": "2015",
+      "imdbID": "tt2072230",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDk5MTcxZmItYWM2Ny00NjIwLWE2YWQtYjczMWFiZThjN2JkXkEyXkFqcGdeQXVyNDQyNzIwNDQ@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Attack on Titan Part 2",
+      "Year": "2015",
+      "imdbID": "tt4294052",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYjU5ZThjMjgtOGExNi00ZmUzLWFiN2QtNTQ3YmYwN2ExNjU1XkEyXkFqcGdeQXVyNDQyNzIwNDQ@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Attack on Titan: Chronicle",
+      "Year": "2020",
+      "imdbID": "tt12415546",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMzQwZjZkMTktYzNkNC00ZWFlLWE4NGEtMjA3YTA4OTEyZWVkXkEyXkFqcGdeQXVyMTA5MTI0Mzc1._V1_SX300.jpg"
+    },
+    {
+      "Title": "The Titan Games",
+      "Year": "2019–",
+      "imdbID": "tt7967262",
+      "Type": "series",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODAxMDk0ZDctYTM1My00ODIwLWFkNjYtZjU4MmE5NWQzNmE2XkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Sym-Bionic Titan",
+      "Year": "2010–2011",
+      "imdbID": "tt1709198",
+      "Type": "series",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BM2IzOWQyMGMtNzdmMS00ODAzLTlmYjktNTc3ZmRhYmNjNzJmXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Attack on Titan: The Roar of Awakening",
+      "Year": "2018",
+      "imdbID": "tt7941892",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZjNjYTlmYWYtMGY3Zi00NzhkLTliZDQtYTNhNTZjNzViNzYyXkEyXkFqcGdeQXVyNjMxNzQ2NTQ@._V1_SX300.jpg"
+    }
+  ],
+  "totalResults": "87",
+  "Response": "True"
+}

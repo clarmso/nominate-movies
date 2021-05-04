@@ -8,7 +8,7 @@ import {
   CardContent,
 } from "@material-ui/core";
 
-type InputMovieProps = {
+export type InputMovieProps = {
   handleChangeSearchTerm: (event: React.ChangeEvent<HTMLInputElement>) => void;
 };
 
@@ -24,6 +24,7 @@ const InputMovie: React.FC<InputMovieProps> = ({ handleChangeSearchTerm }) => {
                 id="my-input"
                 onChange={handleChangeSearchTerm}
                 autoFocus={true}
+                data-testid="input-movie-title"
               />
             </FormControl>
           </CardContent>
