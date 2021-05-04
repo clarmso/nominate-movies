@@ -4,6 +4,8 @@ The web application has been deployed to https://nominate-movies-d9f6a.web.app/.
 
 ## Quick Start 🚀
 
+1. Get an API key from [OMDb API](https://www.omdbapi.com/). Note the API key assigned.
+1. Create a file `.env` in the root directory of the project. Put `VITE_MOVIE_API_KEY=<API KEY>` in the file and save the changes.
 1. Install the dependencies: `npm ci`.
 1. Start the development server: `npm run dev`.
 1. Open a browser and open `http://localhost:3000`.
